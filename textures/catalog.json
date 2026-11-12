@@ -1,0 +1,614 @@
+[
+  {
+    "file": "sharedassets0.assets_7_GenericAtlas.png",
+    "name": "GenericAtlas",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "sharedassets0.assets_9_1.91_NewYork_load_splash_v2.png",
+    "name": "1.91_NewYork_load_splash_v2",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "sharedassets1.assets_44_Default-Particle.png",
+    "name": "Default-Particle",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "sharedassets1.assets_45_teleboardFX.png",
+    "name": "teleboardFX",
+    "width": 16,
+    "height": 16
+  },
+  {
+    "file": "sharedassets1.assets_46_1.101.0_Zurich_trains.png",
+    "name": "1.101.0_Zurich_trains",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "sharedassets1.assets_47_1.101.0_Zurich_waterReflection.png",
+    "name": "1.101.0_Zurich_waterReflection",
+    "width": 512,
+    "height": 256
+  },
+  {
+    "file": "sharedassets1.assets_48_1.101.0_Zurich_train_start.png",
+    "name": "1.101.0_Zurich_train_start",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "sharedassets1.assets_49_material_effect_paintSpray.png",
+    "name": "material_effect_paintSpray",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "sharedassets1.assets_50_celebration_background.png",
+    "name": "celebration_background",
+    "width": 64,
+    "height": 1
+  },
+  {
+    "file": "sharedassets1.assets_51_jetpackSmoke.png",
+    "name": "jetpackSmoke",
+    "width": 128,
+    "height": 32
+  },
+  {
+    "file": "sharedassets1.assets_52_1.101.0_Zurich_waterfall.png",
+    "name": "1.101.0_Zurich_waterfall",
+    "width": 64,
+    "height": 128
+  },
+  {
+    "file": "sharedassets1.assets_54_railRamp.png",
+    "name": "railRamp",
+    "width": 16,
+    "height": 32
+  },
+  {
+    "file": "sharedassets1.assets_55_lavaGlowingParticle.png",
+    "name": "lavaGlowingParticle",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "sharedassets1.assets_56_white.png",
+    "name": "white",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "sharedassets1.assets_57_grindsparkFX.png",
+    "name": "grindsparkFX",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "sharedassets1.assets_58_1.101.0_Zurich_environment.png",
+    "name": "1.101.0_Zurich_environment",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "sharedassets1.assets_59_0.00_Generic_flyingBird_tex.png",
+    "name": "0.00_Generic_flyingBird_tex",
+    "width": 16,
+    "height": 32
+  },
+  {
+    "file": "sharedassets1.assets_60_1.101.0_Zurich_trains_low.png",
+    "name": "1.101.0_Zurich_trains_low",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "sharedassets1.assets_61_celebration_stripe.png",
+    "name": "celebration_stripe",
+    "width": 256,
+    "height": 16
+  },
+  {
+    "file": "sharedassets1.assets_62_1.101.0_Zurich_enemies.png",
+    "name": "1.101.0_Zurich_enemies",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "resources.assets_74_effects_tex.png",
+    "name": "effects_tex",
+    "width": 128,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_75_emblem_halloween.png",
+    "name": "emblem_halloween",
+    "width": 196,
+    "height": 220
+  },
+  {
+    "file": "resources.assets_76_trailAlpha.png",
+    "name": "trailAlpha",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_77_event_bg.png",
+    "name": "event_bg",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "resources.assets_78_props_tex.png",
+    "name": "props_tex",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "resources.assets_79_board_RioHD_tex.png",
+    "name": "board_RioHD_tex",
+    "width": 16,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_80_board_windglider_tex.png",
+    "name": "board_windglider_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_81_circle_bg_mask.png",
+    "name": "circle_bg_mask",
+    "width": 100,
+    "height": 100
+  },
+  {
+    "file": "resources.assets_82_icon_key_cloud_mask.png",
+    "name": "icon_key_cloud_mask",
+    "width": 88,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_83_bobbleMiami.png",
+    "name": "bobbleMiami",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_84_shineAdditive.png",
+    "name": "shineAdditive",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_85_selector.png",
+    "name": "selector",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_86_icon_00_Brody.png",
+    "name": "icon_00_Brody",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_87_icon_03_Ninja.png",
+    "name": "icon_03_Ninja",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_88_board_scoot_tex.png",
+    "name": "board_scoot_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_89_scoreboard.png",
+    "name": "scoreboard",
+    "width": 512,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_90_background_glow_smb_straight.png",
+    "name": "background_glow_smb_straight",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_91_icon_05_KIng.png",
+    "name": "icon_05_KIng",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_92_board_starterpack_tex.png",
+    "name": "board_starterpack_tex",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_93_trail.png",
+    "name": "trail",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_94_material_effect_puff.png",
+    "name": "material_effect_puff",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "file": "resources.assets_95_whitebox.png",
+    "name": "whitebox",
+    "width": 3,
+    "height": 3
+  },
+  {
+    "file": "resources.assets_96_board_superhero_tex.png",
+    "name": "board_superhero_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_97_icon_07_Yutani.png",
+    "name": "icon_07_Yutani",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_98_board_hotRod_tex.png",
+    "name": "board_hotRod_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_99_front_icon_shop.png",
+    "name": "front_icon_shop",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_100_ssBlurred.png",
+    "name": "ssBlurred",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "resources.assets_101_board_star_tex.png",
+    "name": "board_star_tex",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_102_board_londonExtra_tex.png",
+    "name": "board_londonExtra_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_103_icon_star.png",
+    "name": "icon_star",
+    "width": 20,
+    "height": 19
+  },
+  {
+    "file": "resources.assets_104_icon_08_Spike.png",
+    "name": "icon_08_Spike",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_105_board_daredevil_tex.png",
+    "name": "board_daredevil_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_106_video_button_tv_icon_mask.png",
+    "name": "video_button_tv_icon_mask",
+    "width": 85,
+    "height": 104
+  },
+  {
+    "file": "resources.assets_108_board_skullfire_tex.png",
+    "name": "board_skullfire_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_109_bobble.png",
+    "name": "bobble",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_110_img_char_jake.png",
+    "name": "img_char_jake",
+    "width": 280,
+    "height": 404
+  },
+  {
+    "file": "resources.assets_111_icon_friend.png",
+    "name": "icon_friend",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_112_mysterybox_bg.png",
+    "name": "mysterybox_bg",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "resources.assets_113_background_frame_blur.png",
+    "name": "background_frame_blur",
+    "width": 35,
+    "height": 13
+  },
+  {
+    "file": "resources.assets_114_background_sticker_medium_mask.png",
+    "name": "background_sticker_medium_mask",
+    "width": 114,
+    "height": 114
+  },
+  {
+    "file": "resources.assets_115_icon_04_Lucy.png",
+    "name": "icon_04_Lucy",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_116_HighResAtlas.png",
+    "name": "HighResAtlas",
+    "width": 2048,
+    "height": 1024
+  },
+  {
+    "file": "resources.assets_117_board_bouncer_tex.png",
+    "name": "board_bouncer_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_118_hunt_prize_bg.png",
+    "name": "hunt_prize_bg",
+    "width": 128,
+    "height": 4
+  },
+  {
+    "file": "resources.assets_119_awards_bg.png",
+    "name": "awards_bg",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "file": "resources.assets_120_board_greatWhite_tex.png",
+    "name": "board_greatWhite_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_121_icon_01_Tagbot.png",
+    "name": "icon_01_Tagbot",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_122_icon_mystery_box_mask.png",
+    "name": "icon_mystery_box_mask",
+    "width": 146,
+    "height": 136
+  },
+  {
+    "file": "resources.assets_123_double_coins_button_mask.png",
+    "name": "double_coins_button_mask",
+    "width": 246,
+    "height": 59
+  },
+  {
+    "file": "resources.assets_124_trail2.png",
+    "name": "trail2",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_125_board_teleporter_tex.png",
+    "name": "board_teleporter_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_126_Fade.png",
+    "name": "Fade",
+    "width": 32,
+    "height": 3
+  },
+  {
+    "file": "resources.assets_127_amsterdam_prop_tex.png",
+    "name": "amsterdam_prop_tex",
+    "width": 4,
+    "height": 16
+  },
+  {
+    "file": "resources.assets_128_board_sunset_tex.png",
+    "name": "board_sunset_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_129_front_icon_top_run.png",
+    "name": "front_icon_top_run",
+    "width": 512,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_130_icon_02_Tasha.png",
+    "name": "icon_02_Tasha",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_131_butterfly_idleScreen_tex.png",
+    "name": "butterfly_idleScreen_tex",
+    "width": 32,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_132_ageRestriction_characterHeader.png",
+    "name": "ageRestriction_characterHeader",
+    "width": 512,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_133_background_glow_award.png",
+    "name": "background_glow_award",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_134_icon_star.png",
+    "name": "icon_star",
+    "width": 40,
+    "height": 38
+  },
+  {
+    "file": "resources.assets_135_spraySplash.png",
+    "name": "spraySplash",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_136_board_lowrider_tex.png",
+    "name": "board_lowrider_tex",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_137_board_lumberjack_tex.png",
+    "name": "board_lumberjack_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_139_icon_small_mini_mysteryBox_mask.png",
+    "name": "icon_small_mini_mysteryBox_mask",
+    "width": 54,
+    "height": 52
+  },
+  {
+    "file": "resources.assets_140_front_icon_MyTour.png",
+    "name": "front_icon_MyTour",
+    "width": 256,
+    "height": 128
+  },
+  {
+    "file": "resources.assets_141_board_snowboard_tex.png",
+    "name": "board_snowboard_tex",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_142_GenericMenuColors.png",
+    "name": "GenericMenuColors",
+    "width": 4,
+    "height": 4
+  },
+  {
+    "file": "resources.assets_143_icon_09_Fresh.png",
+    "name": "icon_09_Fresh",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_144_tokyo_stripe.png",
+    "name": "tokyo_stripe",
+    "width": 10,
+    "height": 448
+  },
+  {
+    "file": "resources.assets_145_Icon_coin_pouch_large_mask.png",
+    "name": "Icon_coin_pouch_large_mask",
+    "width": 52,
+    "height": 70
+  },
+  {
+    "file": "resources.assets_146_front_icon_me.png",
+    "name": "front_icon_me",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_147_welcome_pack_main_button_mask.png",
+    "name": "welcome_pack_main_button_mask",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_148_board_bigKahuna_tex.png",
+    "name": "board_bigKahuna_tex",
+    "width": 32,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_149_board_default_tex.png",
+    "name": "board_default_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_150_board_tokyoExtra_tex.png",
+    "name": "board_tokyoExtra_tex",
+    "width": 64,
+    "height": 64
+  },
+  {
+    "file": "resources.assets_151_icon_11_Tricky.png",
+    "name": "icon_11_Tricky",
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "resources.assets_152_HighResCountriesAtlas.png",
+    "name": "HighResCountriesAtlas",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "resources.assets_153_char_king.png",
+    "name": "char_king",
+    "width": 276,
+    "height": 268
+  },
+  {
+    "file": "resources.assets_154_LowResAtlas.png",
+    "name": "LowResAtlas",
+    "width": 1024,
+    "height": 512
+  },
+  {
+    "file": "resources.assets_155_img_track.png",
+    "name": "img_track",
+    "width": 480,
+    "height": 156
+  },
+  {
+    "file": "resources.assets_156_board_monster_tex.png",
+    "name": "board_monster_tex",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "resources.assets_157_MissionsFont_small-export.png",
+    "name": "MissionsFont_small-export",
+    "width": 256,
+    "height": 256
+  }
+]
