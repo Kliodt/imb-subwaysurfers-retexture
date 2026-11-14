@@ -4,6 +4,10 @@
 
 ## С чего начать
 
+- [X2_STAR_RESTORE_STATUS.md](X2_STAR_RESTORE_STATUS.md) — восстановлена звезда x2; брендинг монеты отделён от общего участка атласа.
+
+- [UI_COIN_BRANDING_STATUS.md](UI_COIN_BRANDING_STATUS.md) — MEGA BATTLE в21 спрайте каждого из HighResAtlas/LowResAtlas.
+
 - [GRAFFITI_ITMO_STATUS.md](GRAFFITI_ITMO_STATUS.md) —14.11: новое граффити ITMO / MEGA / BATTLE; прежний независимый QA48 не актуален.
 
 - [QA_REPORT.md](QA_REPORT.md) — сводка независимого аудита: 90 без статических замечаний, 9 рисков, 3 дефекта.

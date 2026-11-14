@@ -31,6 +31,9 @@ def binary_payloads(container, prefix=''):
     return result
 
 def main():
+    policy_path=ROOT/'textures/edit-policy.json'
+    policy=json.loads(policy_path.read_text(encoding='utf-8')) if policy_path.exists() else {}
+    alpha_allowed=set(policy.get('alpha_changes_allowed',[]))
     catalog = json.loads((ROOT / 'textures/catalog.json').read_text(encoding='utf-8'))
     records = []
     for entry in catalog:
@@ -40,6 +43,8 @@ def main():
         before = Image.open(BytesIO(baseline)).convert('RGBA')
         after = Image.open(BytesIO(current_bytes)).convert('RGBA')
         records.append({'file': name, 'changed': before.tobytes() != after.tobytes(), 'size_before': before.size, 'size_after': after.size, 'size_ok': before.size == after.size, 'alpha_ok': before.getchannel('A').tobytes() == after.getchannel('A').tobytes(), 'source_sha256': digest(baseline), 'current_sha256': digest(current_bytes)})
+    for record in records:
+        record['alpha_change_authorized']=record['file'] in alpha_allowed
     source_data = source('ZurichNewPrivacy.data.unityweb')
     built_data = (ROOT / 'game-local/ZurichNewPrivacy.data.unityweb').read_bytes()
     old = UnityPy.load(source_data)
@@ -72,10 +77,18 @@ def main():
     result['source_binary_payloads'] = old_payloads
     result['built_binary_payloads'] = new_payloads
     result['binary_payload_differences'] = [name for name in sorted(set(old_payloads) | set(new_payloads)) if old_payloads.get(name) != new_payloads.get(name)]
+    allowed={tuple(k) for k in policy.get('nontexture_changes_allowed',[])}
+    result['unexpected_nontexture_changes']=[k for k in changed_nontexture if k not in allowed]
+    result['authorized_mesh_uv_only_checks']={}
+    for k in changed_nontexture:
+        if k in allowed and k[2]=='Mesh':
+            before=old_objects[k].read_typetree(); after=new_objects[k].read_typetree()
+            before['m_CompressedMesh'].pop('m_UV');after['m_CompressedMesh'].pop('m_UV')
+            result['authorized_mesh_uv_only_checks'][str(k)]=before==after
     (ROOT / 'agent-reports').mkdir(exist_ok=True)
     (ROOT / 'agent-reports/QA_TECHNICAL.json').write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
     print('Binary payloads:', len(old_payloads), 'differences:', result['binary_payload_differences'])
-    print(json.dumps({'png': len(records), 'changed_png': sum(r['changed'] for r in records), 'size_errors': sum(not r['size_ok'] for r in records), 'alpha_errors': sum(not r['alpha_ok'] for r in records), 'source_objects': len(old_objects), 'built_objects': len(new_objects), 'missing_objects': len(missing), 'added_objects': len(added), 'nontexture_compared': nontexture_count, 'nontexture_changed': len(changed_nontexture), 'embedded_checked': len(png_matches), 'embedded_mismatches': sum(not x for x in png_matches.values())}, ensure_ascii=False))
+    print(json.dumps({'png': len(records), 'changed_png': sum(r['changed'] for r in records), 'size_errors': sum(not r['size_ok'] for r in records), 'alpha_errors': sum(not r['alpha_ok'] and not r['alpha_change_authorized'] for r in records), 'authorized_alpha_changes': sum(not r['alpha_ok'] and r['alpha_change_authorized'] for r in records), 'source_objects': len(old_objects), 'built_objects': len(new_objects), 'missing_objects': len(missing), 'added_objects': len(added), 'nontexture_compared': nontexture_count, 'nontexture_changed': len(changed_nontexture), 'embedded_checked': len(png_matches), 'embedded_mismatches': sum(not x for x in png_matches.values())}, ensure_ascii=False))
 
 if __name__ == '__main__':
     main()

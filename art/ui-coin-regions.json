@@ -1,0 +1,1190 @@
+{
+  "art": "art/mega-battle-ui-coin.png",
+  "note": "Imagegen coin-face artwork is geometrically placed into exact UIAtlas sprite regions, preserving all original alpha and all other pixels. LowRes regions use the corresponding sprite dimensions, never a resized whole atlas.",
+  "atlases": {
+    "high": {
+      "file": "resources.assets_116_HighResAtlas.png",
+      "sprites": [
+        {
+          "sprite": "coin_deco_double",
+          "rect": [
+            335,
+            522,
+            46,
+            32
+          ],
+          "face_boxes": [
+            [
+              4,
+              17,
+              44,
+              27
+            ],
+            [
+              2,
+              2,
+              42,
+              13
+            ]
+          ]
+        },
+        {
+          "sprite": "coin_deco_multiple",
+          "rect": [
+            751,
+            815,
+            119,
+            83
+          ],
+          "face_boxes": [
+            [
+              60,
+              2,
+              98,
+              14
+            ],
+            [
+              30,
+              25,
+              69,
+              36
+            ],
+            [
+              54,
+              32,
+              93,
+              44
+            ],
+            [
+              35,
+              62,
+              78,
+              73
+            ],
+            [
+              4,
+              52,
+              42,
+              65
+            ],
+            [
+              79,
+              51,
+              117,
+              64
+            ]
+          ]
+        },
+        {
+          "sprite": "coin_deco_single",
+          "rect": [
+            1522,
+            633,
+            46,
+            22
+          ],
+          "face_boxes": [
+            [
+              2,
+              2,
+              43,
+              15
+            ]
+          ]
+        },
+        {
+          "sprite": "coin_with_background",
+          "rect": [
+            1560,
+            149,
+            51,
+            49
+          ],
+          "face_boxes": [
+            [
+              7,
+              7,
+              44,
+              44
+            ]
+          ]
+        },
+        {
+          "sprite": "coin2d",
+          "rect": [
+            1780,
+            438,
+            36,
+            36
+          ],
+          "face_boxes": [
+            [
+              3,
+              3,
+              33,
+              33
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coin_large",
+          "rect": [
+            1420,
+            849,
+            58,
+            56
+          ],
+          "face_boxes": [
+            [
+              7,
+              5,
+              50,
+              49
+            ]
+          ]
+        },
+        {
+          "sprite": "Icon_coin_pouch_large",
+          "rect": [
+            1480,
+            892,
+            52,
+            70
+          ],
+          "face_boxes": [
+            [
+              5,
+              28,
+              34,
+              58
+            ]
+          ]
+        },
+        {
+          "sprite": "Icon_coin_pouch_large_stroke",
+          "rect": [
+            1302,
+            344,
+            58,
+            74
+          ],
+          "face_boxes": [
+            [
+              6,
+              29,
+              38,
+              63
+            ]
+          ]
+        },
+        {
+          "sprite": "Icon_coin_pouch_larger",
+          "rect": [
+            939,
+            602,
+            78,
+            105
+          ],
+          "face_boxes": [
+            [
+              8,
+              39,
+              51,
+              83
+            ]
+          ]
+        },
+        {
+          "sprite": "Icon_coin_pouch_small",
+          "rect": [
+            1789,
+            744,
+            31,
+            42
+          ],
+          "face_boxes": [
+            [
+              3,
+              18,
+              19,
+              34
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_1",
+          "rect": [
+            1286,
+            773,
+            53,
+            51
+          ],
+          "face_boxes": [
+            [
+              17,
+              8,
+              39,
+              31
+            ],
+            [
+              26,
+              24,
+              47,
+              46
+            ],
+            [
+              4,
+              21,
+              29,
+              46
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_1_big",
+          "rect": [
+            1367,
+            518,
+            68,
+            66
+          ],
+          "face_boxes": [
+            [
+              24,
+              4,
+              59,
+              39
+            ],
+            [
+              32,
+              29,
+              63,
+              61
+            ],
+            [
+              5,
+              23,
+              43,
+              62
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_2",
+          "rect": [
+            1298,
+            849,
+            64,
+            52
+          ],
+          "face_boxes": [
+            [
+              25,
+              2,
+              44,
+              10
+            ],
+            [
+              37,
+              18,
+              60,
+              27
+            ],
+            [
+              3,
+              29,
+              28,
+              37
+            ],
+            [
+              25,
+              34,
+              49,
+              42
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_2_5",
+          "rect": [
+            1324,
+            905,
+            59,
+            67
+          ],
+          "face_boxes": [
+            [
+              12,
+              36,
+              39,
+              43
+            ],
+            [
+              9,
+              44,
+              44,
+              54
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_3",
+          "rect": [
+            1277,
+            656,
+            70,
+            70
+          ],
+          "face_boxes": [
+            [
+              41,
+              27,
+              55,
+              43
+            ],
+            [
+              6,
+              31,
+              29,
+              54
+            ],
+            [
+              43,
+              54,
+              65,
+              61
+            ],
+            [
+              48,
+              45,
+              66,
+              51
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinStack_large",
+          "rect": [
+            1767,
+            939,
+            47,
+            38
+          ],
+          "face_boxes": [
+            [
+              16,
+              1,
+              36,
+              9
+            ],
+            [
+              11,
+              13,
+              31,
+              21
+            ],
+            [
+              24,
+              20,
+              45,
+              28
+            ],
+            [
+              1,
+              22,
+              22,
+              30
+            ],
+            [
+              14,
+              27,
+              35,
+              35
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinStack_larger",
+          "rect": [
+            1240,
+            18,
+            71,
+            56
+          ],
+          "face_boxes": [
+            [
+              23,
+              1,
+              47,
+              10
+            ],
+            [
+              18,
+              16,
+              41,
+              26
+            ],
+            [
+              41,
+              23,
+              67,
+              32
+            ],
+            [
+              23,
+              29,
+              48,
+              38
+            ],
+            [
+              2,
+              34,
+              28,
+              43
+            ],
+            [
+              38,
+              40,
+              62,
+              50
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_doubleCoins",
+          "rect": [
+            1442,
+            463,
+            63,
+            60
+          ],
+          "face_boxes": [
+            [
+              25,
+              6,
+              58,
+              38
+            ],
+            [
+              5,
+              26,
+              38,
+              57
+            ]
+          ]
+        },
+        {
+          "sprite": "img_coins_heap_big",
+          "rect": [
+            626,
+            810,
+            123,
+            99
+          ],
+          "face_boxes": [
+            [
+              46,
+              3,
+              82,
+              17
+            ],
+            [
+              36,
+              24,
+              77,
+              38
+            ],
+            [
+              75,
+              41,
+              117,
+              54
+            ],
+            [
+              5,
+              49,
+              46,
+              63
+            ],
+            [
+              35,
+              46,
+              78,
+              59
+            ],
+            [
+              43,
+              63,
+              84,
+              76
+            ],
+            [
+              6,
+              73,
+              53,
+              85
+            ],
+            [
+              72,
+              78,
+              112,
+              91
+            ]
+          ]
+        },
+        {
+          "sprite": "img_coins_heap_small",
+          "rect": [
+            1728,
+            671,
+            46,
+            39
+          ],
+          "face_boxes": [
+            [
+              12,
+              1,
+              39,
+              10
+            ],
+            [
+              3,
+              15,
+              29,
+              24
+            ],
+            [
+              11,
+              25,
+              41,
+              35
+            ]
+          ]
+        },
+        {
+          "sprite": "popup_cloud_icon_doublecoins",
+          "rect": [
+            832,
+            312,
+            89,
+            86
+          ],
+          "face_boxes": [
+            [
+              32,
+              8,
+              79,
+              55
+            ],
+            [
+              9,
+              33,
+              55,
+              79
+            ]
+          ]
+        }
+      ],
+      "preserved_coin_named_sprites": [
+        "double_coins_button",
+        "icon_coinPack_4",
+        "icon_coinPack_5",
+        "icon_coins",
+        "icon_collect_coins",
+        "icon_upgrades_coinMagnet"
+      ]
+    },
+    "low": {
+      "file": "resources.assets_154_LowResAtlas.png",
+      "sprites": [
+        {
+          "sprite": "coin_deco_double",
+          "rect": [
+            653,
+            1,
+            23,
+            16
+          ],
+          "face_boxes": [
+            [
+              2,
+              8,
+              22,
+              14
+            ],
+            [
+              1,
+              1,
+              21,
+              6
+            ]
+          ]
+        },
+        {
+          "sprite": "coin_deco_multiple",
+          "rect": [
+            193,
+            6,
+            59,
+            40
+          ],
+          "face_boxes": [
+            [
+              30,
+              1,
+              49,
+              7
+            ],
+            [
+              15,
+              12,
+              34,
+              17
+            ],
+            [
+              27,
+              15,
+              46,
+              21
+            ],
+            [
+              17,
+              30,
+              39,
+              35
+            ],
+            [
+              2,
+              25,
+              21,
+              31
+            ],
+            [
+              39,
+              25,
+              58,
+              31
+            ]
+          ]
+        },
+        {
+          "sprite": "coin_deco_single",
+          "rect": [
+            724,
+            78,
+            23,
+            11
+          ],
+          "face_boxes": [
+            [
+              1,
+              1,
+              22,
+              8
+            ]
+          ]
+        },
+        {
+          "sprite": "coin_with_background",
+          "rect": [
+            846,
+            304,
+            26,
+            25
+          ],
+          "face_boxes": [
+            [
+              4,
+              4,
+              22,
+              22
+            ]
+          ]
+        },
+        {
+          "sprite": "coin2d",
+          "rect": [
+            959,
+            475,
+            18,
+            18
+          ],
+          "face_boxes": [
+            [
+              2,
+              2,
+              16,
+              16
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coin_large",
+          "rect": [
+            724,
+            90,
+            30,
+            28
+          ],
+          "face_boxes": [
+            [
+              4,
+              2,
+              26,
+              24
+            ]
+          ]
+        },
+        {
+          "sprite": "Icon_coin_pouch_large",
+          "rect": [
+            714,
+            235,
+            27,
+            35
+          ],
+          "face_boxes": [
+            [
+              3,
+              14,
+              18,
+              29
+            ]
+          ]
+        },
+        {
+          "sprite": "Icon_coin_pouch_large_stroke",
+          "rect": [
+            644,
+            80,
+            29,
+            37
+          ],
+          "face_boxes": [
+            [
+              3,
+              14,
+              19,
+              32
+            ]
+          ]
+        },
+        {
+          "sprite": "Icon_coin_pouch_larger",
+          "rect": [
+            527,
+            360,
+            39,
+            53
+          ],
+          "face_boxes": [
+            [
+              4,
+              20,
+              26,
+              42
+            ]
+          ]
+        },
+        {
+          "sprite": "Icon_coin_pouch_small",
+          "rect": [
+            899,
+            269,
+            16,
+            21
+          ],
+          "face_boxes": [
+            [
+              2,
+              9,
+              10,
+              17
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_1",
+          "rect": [
+            685,
+            486,
+            27,
+            26
+          ],
+          "face_boxes": [
+            [
+              9,
+              4,
+              20,
+              16
+            ],
+            [
+              13,
+              12,
+              24,
+              23
+            ],
+            [
+              2,
+              11,
+              15,
+              23
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_1_big",
+          "rect": [
+            784,
+            445,
+            34,
+            33
+          ],
+          "face_boxes": [
+            [
+              12,
+              2,
+              30,
+              20
+            ],
+            [
+              16,
+              14,
+              32,
+              30
+            ],
+            [
+              2,
+              12,
+              22,
+              31
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_2",
+          "rect": [
+            713,
+            485,
+            33,
+            27
+          ],
+          "face_boxes": [
+            [
+              13,
+              1,
+              23,
+              5
+            ],
+            [
+              19,
+              9,
+              31,
+              14
+            ],
+            [
+              2,
+              15,
+              14,
+              19
+            ],
+            [
+              13,
+              18,
+              25,
+              22
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_2_5",
+          "rect": [
+            623,
+            321,
+            29,
+            33
+          ],
+          "face_boxes": [
+            [
+              6,
+              18,
+              19,
+              21
+            ],
+            [
+              4,
+              22,
+              22,
+              27
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinPack_3",
+          "rect": [
+            628,
+            141,
+            35,
+            35
+          ],
+          "face_boxes": [
+            [
+              20,
+              14,
+              28,
+              22
+            ],
+            [
+              3,
+              16,
+              14,
+              27
+            ],
+            [
+              22,
+              27,
+              32,
+              30
+            ],
+            [
+              24,
+              22,
+              33,
+              26
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinStack_large",
+          "rect": [
+            688,
+            251,
+            24,
+            19
+          ],
+          "face_boxes": [
+            [
+              8,
+              0,
+              18,
+              4
+            ],
+            [
+              6,
+              6,
+              16,
+              10
+            ],
+            [
+              12,
+              10,
+              23,
+              14
+            ],
+            [
+              1,
+              11,
+              11,
+              15
+            ],
+            [
+              7,
+              14,
+              18,
+              18
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_coinStack_larger",
+          "rect": [
+            680,
+            345,
+            36,
+            29
+          ],
+          "face_boxes": [
+            [
+              12,
+              1,
+              24,
+              5
+            ],
+            [
+              9,
+              8,
+              21,
+              13
+            ],
+            [
+              21,
+              12,
+              34,
+              17
+            ],
+            [
+              12,
+              15,
+              24,
+              20
+            ],
+            [
+              1,
+              18,
+              14,
+              22
+            ],
+            [
+              19,
+              21,
+              31,
+              26
+            ]
+          ]
+        },
+        {
+          "sprite": "icon_doubleCoins",
+          "rect": [
+            753,
+            59,
+            31,
+            30
+          ],
+          "face_boxes": [
+            [
+              12,
+              3,
+              29,
+              19
+            ],
+            [
+              2,
+              13,
+              19,
+              28
+            ]
+          ]
+        },
+        {
+          "sprite": "img_coins_heap_big",
+          "rect": [
+            369,
+            462,
+            62,
+            50
+          ],
+          "face_boxes": [
+            [
+              23,
+              2,
+              41,
+              9
+            ],
+            [
+              18,
+              12,
+              39,
+              19
+            ],
+            [
+              38,
+              21,
+              59,
+              27
+            ],
+            [
+              3,
+              25,
+              23,
+              32
+            ],
+            [
+              18,
+              23,
+              39,
+              30
+            ],
+            [
+              22,
+              32,
+              42,
+              38
+            ],
+            [
+              3,
+              37,
+              27,
+              43
+            ],
+            [
+              36,
+              39,
+              56,
+              46
+            ]
+          ]
+        },
+        {
+          "sprite": "img_coins_heap_small",
+          "rect": [
+            862,
+            200,
+            23,
+            20
+          ],
+          "face_boxes": [
+            [
+              6,
+              1,
+              20,
+              5
+            ],
+            [
+              2,
+              8,
+              14,
+              12
+            ],
+            [
+              6,
+              13,
+              20,
+              18
+            ]
+          ]
+        },
+        {
+          "sprite": "popup_cloud_icon_doublecoins",
+          "rect": [
+            388,
+            18,
+            44,
+            43
+          ],
+          "face_boxes": [
+            [
+              16,
+              4,
+              39,
+              28
+            ],
+            [
+              4,
+              16,
+              27,
+              40
+            ]
+          ]
+        }
+      ],
+      "preserved_coin_named_sprites": [
+        "double_coins_button",
+        "icon_coinPack_4",
+        "icon_coinPack_5",
+        "icon_coins",
+        "icon_collect_coins",
+        "icon_upgrades_coinMagnet"
+      ]
+    }
+  }
+}

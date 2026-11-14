@@ -1,11 +1,11 @@
 {
   "counts": {
-    "pass": 89,
-    "risk": 9,
+    "pass": 88,
+    "risk": 7,
     "fail": 3,
-    "recheck": 1
+    "recheck": 4
   },
-  "scope": "Independent static audit13.11 valid for101 files; texture48 replaced14.11 with local review only; no gameplay validation",
+  "scope": "Independent audit applies to98 PNG;48/78/116/154 updated with local review only; no gameplay validation",
   "files": [
     {
       "file": "resources.assets_127_amsterdam_prop_tex.png",
@@ -36,12 +36,15 @@
     },
     {
       "file": "resources.assets_78_props_tex.png",
-      "verdict": "pass",
+      "verdict": "recheck",
       "objects": "Вопросительные знаки, круги, звёздные монеты, стрелка вверх, динамик, решётки и корпусные панели на прежних участках. Локальные блики и толщины обводок перерисованы; перестановки островов не видно.",
       "style": "Белые и синие символы контрастны; небольшие плавные волны на крупных поверхностях согласуются с референсами.",
       "evidence": "512×512; native_crops.png строка4: знаки x0–165,y64–405; панели x290–510. Пара: output/qa_world/pairs/resources.assets_78_props_tex.png Размер и альфа совпали с a9cdde1.",
       "next_step": "Проверить отображение, UV/тайлинг/материал в игре; pass относится только к статическому сравнению.",
-      "report": "agent-reports/QA_WORLD.md"
+      "report": "agent-reports/QA_WORLD.md",
+      "previous_verdict_2026_11_13": "pass",
+      "current_sha256": "0b1645296d2bed7bbafa1931bee7797363462b61a31c6fe3cd05bf1c160e3ef7",
+      "local_review_2026_11_14": "Редакция4: MEGA BATTLE; оба U лица отражены относительно подтверждённой пользователем зеркальной версии3. V/боковины/геометрия сохранены. Рендер версии3 не доказательство ориентации. Нужна новая игровая проверка."
     },
     {
       "file": "sharedassets0.assets_7_GenericAtlas.png",
@@ -106,8 +109,8 @@
       "next_step": "Проверить отображение, UV/тайлинг/материал в игре; pass относится только к статическому сравнению.",
       "report": "agent-reports/QA_WORLD.md",
       "previous_verdict_2026_11_13": "pass",
-      "local_review_2026_11_14": "Редакция2 по запросу пользователя: агрессивное граффити ITMO / MEGA / BATTLE. Надпись/размер/альфа осмотрены, сборка RGBA прошла. Независимый QA и игра не проверены.",
-      "current_sha256": "ea60631618ac7e94765188c3f71754a1c9019e76f2e023554bb10762cb95fb71"
+      "local_review_2026_11_14": "Редакция3: монета без[now] и новое граффити RGBA; локальный QA и сборка прошли, старый независимый QA не относится к версии.",
+      "current_sha256": "7ebc30d0c96277ce8ec8523ed61bb6fa8bfdc9c8db3684177a5f3e8e4f2a26da"
     },
     {
       "file": "sharedassets1.assets_49_material_effect_paintSpray.png",
@@ -744,12 +747,15 @@
     },
     {
       "file": "resources.assets_116_HighResAtlas.png",
-      "verdict": "risk",
+      "verdict": "recheck",
       "objects": "Все осмотренные глифы/стрелки/буквы и значения +1,+10,2x,1/2/3,?, $,ABC сохранены; перестановок не обнаружено.",
       "style": "Синяя перекраска последовательно выдержана, но совпадающие синие тона снижают различимость вариантов.",
       "evidence": "Осмотрены ВСЕ 8 кропов crop_116_{x}_{y}.png в исходном масштабе. Например медаль в (730,200) стала почти однотонной; галочка и крест оба синие, предупредительный треугольник утратил жёлтый цвет. Альфа точна. Размер [2048, 1024]; исходная альфа совпадает побайтно.",
       "next_step": "Проверить различимость кнопок/наград и мелкие числа в меню; при слабой читаемости увеличить локальный светлотный контраст без движения спрайтов.",
-      "report": "agent-reports/QA_UI_EFFECTS.md"
+      "report": "agent-reports/QA_UI_EFFECTS.md",
+      "previous_verdict_2026_11_13": "risk",
+      "current_sha256": "b3c7e5e545db9ffd2983e52f5724a008b02155e4c8f0c0612575df39f71e5ca1",
+      "local_review_2026_11_14": "UI coins MEGA BATTLE:21 sprites each;334 others and alpha exact. Prior independent QA obsolete; see UI_COIN_BRANDING_STATUS.md."
     },
     {
       "file": "resources.assets_118_hunt_prize_bg.png",
@@ -915,12 +921,15 @@
     },
     {
       "file": "resources.assets_154_LowResAtlas.png",
-      "verdict": "risk",
+      "verdict": "recheck",
       "objects": "Все осмотренные предметы, стрелки, цифры/знаки сохранены в исходных ячейках; новых надписей нет.",
       "style": "Общая синяя палитра выдержана; некоторые монеты/медали теряют внутренний контраст.",
       "evidence": "Осмотрены оба нативных кропа crop_154_0_0.png и crop_154_512_0.png. Белые нейтральные символы на месте, но красный крест/зелёная галочка/жёлтое предупреждение теперь все синие. Размер [1024, 512]; исходная альфа совпадает побайтно.",
       "next_step": "Проверить маленький UI, числа/награды и различимость состояний в игре; при необходимости усилить светлоту деталей.",
-      "report": "agent-reports/QA_UI_EFFECTS.md"
+      "report": "agent-reports/QA_UI_EFFECTS.md",
+      "previous_verdict_2026_11_13": "risk",
+      "current_sha256": "256397dc04058a19b66505e381091c392316936d295de9ced4106cb2cc8fdc49",
+      "local_review_2026_11_14": "UI coins MEGA BATTLE:21 sprites each;334 others and alpha exact. Prior independent QA obsolete; see UI_COIN_BRANDING_STATUS.md."
     },
     {
       "file": "resources.assets_157_MissionsFont_small-export.png",

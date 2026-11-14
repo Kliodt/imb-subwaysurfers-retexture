@@ -1,0 +1,25 @@
+{
+  "rect": [
+    169,
+    157,
+    252,
+    240
+  ],
+  "atlas_size": [
+    512,
+    512
+  ],
+  "text": "MEGA BATTLE",
+  "mesh": "resources.assets:317",
+  "reason": "Dedicated unused atlas square: original shared coin/x2 star region restored. Only currency_coin face UVs point here; preserve corrected face U signs and sidewall UVs.",
+  "face_u_signs": [
+    1,
+    -1
+  ],
+  "shared_star_region_restored": [
+    292,
+    288,
+    368,
+    444
+  ]
+}

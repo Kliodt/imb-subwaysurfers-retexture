@@ -1,0 +1,13 @@
+{
+  "alpha_changes_allowed": [
+    "sharedassets1.assets_48_1.101.0_Zurich_train_start.png"
+  ],
+  "nontexture_changes_allowed": [
+    [
+      "resources.assets",
+      317,
+      "Mesh"
+    ]
+  ],
+  "reason": "Explicit user requests: new graffiti silhouette; readable nonmirrored coin inscription requires face UV remapping only."
+}
