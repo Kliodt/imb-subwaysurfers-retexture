@@ -1,0 +1,24 @@
+# Send only the inputs required for the Zurich build.
+**
+!Dockerfile
+!nginx.conf
+!texture_tool.py
+!launcher-template.html
+!textures/
+!textures/*.png
+!subway-original/
+!subway-original/zurich/
+!subway-original/zurich/ZurichNewPrivacy.data.unityweb
+!subway-original/zurich/ZurichNewPrivacy.wasm.code.unityweb
+!subway-original/ZurichNewPrivacy.data.unityweb.part1
+!subway-original/ZurichNewPrivacy.data.unityweb.part2
+!subway-original/ZurichNewPrivacy.wasm.code.unityweb.part1
+!subway-original/ZurichNewPrivacy.wasm.code.unityweb.part2
+!subway-original/ZurichNewPrivacy.json
+!subway-original/ZurichNewPrivacy.wasm.framework.unityweb
+!subway-original/4399.z.js
+!subway-original/master-loader.js
+!subway-original/unity.js
+!subway-original/UnityLoader.2019.2.js
+!subway-original/poki-sdk.js
+!subway-original/poki-sdk-core-v2.234.2.js

@@ -32,7 +32,7 @@ def main():
             tinted=ImageOps.colorize(ImageOps.grayscale(image),'#250025','#ff22dd').convert('RGBA')
             tinted.putalpha(image.getchannel('A'))
             tex.image=tinted; tex.save(); changed.append(tex.m_Name)
-            expected[tex.m_Name]=tinted.convert('RGB').tobytes()
+            expected[tex.m_Name]=tinted.convert('RGBA').tobytes()
         elif args.action=='build' and path.exists():
             from PIL import Image
             image=Image.open(path).convert('RGBA')
@@ -41,7 +41,7 @@ def main():
             if image.tobytes()!=original.tobytes():
                 tex.set_image(image, target_format=4, mipmap_count=max(1,tex.m_MipCount or 1))
                 tex.save(); changed.append(tex.m_Name)
-                expected[tex.m_Name]=image.convert('RGB').tobytes()
+                expected[tex.m_Name]=image.convert('RGBA').tobytes()
     (folder/'catalog.json').write_text(json.dumps(entries,ensure_ascii=False,indent=2),encoding='utf-8')
     if args.action=='export': print('Exported',len(entries),'textures'); return
     out=ROOT/('game-demo' if args.action=='demo' else 'game-local'); out.mkdir(exist_ok=True)
@@ -50,7 +50,7 @@ def main():
     assert len(list(check.objects))==len(list(env.objects))
     for obj in check.objects:
         if obj.type.name=='Texture2D' and obj.peek_name() in changed:
-            assert obj.read().image.convert('RGB').tobytes()==expected[obj.peek_name()], 'Texture differs after repack'
+            assert obj.read().image.convert('RGBA').tobytes()==expected[obj.peek_name()], 'Texture differs after repack (RGBA)'
     (out/'ZurichNewPrivacy.data.unityweb').write_bytes(data)
     (out/'ZurichNewPrivacy.wasm.code.unityweb').write_bytes(source('ZurichNewPrivacy.wasm.code.unityweb'))
     for name in ['ZurichNewPrivacy.json','ZurichNewPrivacy.wasm.framework.unityweb','4399.z.js','master-loader.js','unity.js','UnityLoader.2019.2.js','poki-sdk.js','poki-sdk-core-v2.234.2.js']:

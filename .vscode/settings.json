@@ -1,0 +1,13 @@
+{
+    "python.analysis.extraPaths": [
+        "./.tools/python"
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1A1A1A",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.debuggingBackground": "#263238",
+        "tree.indentGuidesStroke": "#6c6c6c",
+        "minimap.background": "#00000000",
+        "scrollbar.shadow": "#00000000"
+    }
+}

@@ -1,0 +1,1903 @@
+{
+  "baseline_commit": "a9cdde1",
+  "source_package_sha256": "abf564553f7b07a29425c035ce8069248809c5efdcc4e76a147412fa87a5ee9a",
+  "built_package_sha256": "dc86cb160fe6cf0e8af4ced496c6dc410978b95a67c917b80729b0f6396f8f0c",
+  "source_object_count": 44406,
+  "built_object_count": 44406,
+  "source_types": {
+    "Shader": 109,
+    "ComputeShader": 2,
+    "Texture2D": 148,
+    "Material": 122,
+    "Font": 6,
+    "Mesh": 348,
+    "Sprite": 3,
+    "MonoBehaviour": 16713,
+    "MonoScript": 2258,
+    "PlayerSettings": 1,
+    "InputManager": 1,
+    "TagManager": 1,
+    "AudioManager": 1,
+    "ScriptMapper": 1,
+    "MonoManager": 1,
+    "GraphicsSettings": 1,
+    "TimeManager": 1,
+    "DelayedCallManager": 1,
+    "PhysicsManager": 1,
+    "BuildSettings": 1,
+    "QualitySettings": 1,
+    "ResourceManager": 1,
+    "NavMeshProjectSettings": 1,
+    "Physics2DSettings": 1,
+    "RuntimeInitializeOnLoadManager": 1,
+    "StreamingManager": 1,
+    "VFXManager": 1,
+    "PreloadData": 3,
+    "ShaderVariantCollection": 1,
+    "GameObject": 11187,
+    "Transform": 11185,
+    "Camera": 11,
+    "MeshRenderer": 360,
+    "MeshFilter": 362,
+    "Rigidbody": 251,
+    "RenderSettings": 2,
+    "LightmapSettings": 2,
+    "NavMeshSettings": 2,
+    "AnimationClip": 265,
+    "AudioClip": 45,
+    "RenderTexture": 1,
+    "Cubemap": 2,
+    "Avatar": 1,
+    "AnimatorController": 8,
+    "BoxCollider": 539,
+    "Animator": 15,
+    "Animation": 107,
+    "FlareLayer": 1,
+    "SphereCollider": 74,
+    "SkinnedMeshRenderer": 11,
+    "ParticleSystem": 38,
+    "ParticleSystemRenderer": 38,
+    "AudioListener": 1,
+    "AudioSource": 2,
+    "TextMesh": 2,
+    "Light": 1,
+    "CapsuleCollider": 3,
+    "CharacterController": 1,
+    "AudioHighPassFilter": 1,
+    "AudioLowPassFilter": 1,
+    "CanvasRenderer": 1,
+    "Canvas": 1,
+    "RectTransform": 2,
+    "TextAsset": 143,
+    "MeshCollider": 1,
+    "TrailRenderer": 4,
+    "SpriteRenderer": 4
+  },
+  "built_types": {
+    "Shader": 109,
+    "ComputeShader": 2,
+    "Texture2D": 148,
+    "Material": 122,
+    "Font": 6,
+    "Mesh": 348,
+    "Sprite": 3,
+    "MonoBehaviour": 16713,
+    "MonoScript": 2258,
+    "PlayerSettings": 1,
+    "InputManager": 1,
+    "TagManager": 1,
+    "AudioManager": 1,
+    "ScriptMapper": 1,
+    "MonoManager": 1,
+    "GraphicsSettings": 1,
+    "TimeManager": 1,
+    "DelayedCallManager": 1,
+    "PhysicsManager": 1,
+    "BuildSettings": 1,
+    "QualitySettings": 1,
+    "ResourceManager": 1,
+    "NavMeshProjectSettings": 1,
+    "Physics2DSettings": 1,
+    "RuntimeInitializeOnLoadManager": 1,
+    "StreamingManager": 1,
+    "VFXManager": 1,
+    "PreloadData": 3,
+    "ShaderVariantCollection": 1,
+    "GameObject": 11187,
+    "Transform": 11185,
+    "Camera": 11,
+    "MeshRenderer": 360,
+    "MeshFilter": 362,
+    "Rigidbody": 251,
+    "RenderSettings": 2,
+    "LightmapSettings": 2,
+    "NavMeshSettings": 2,
+    "AnimationClip": 265,
+    "AudioClip": 45,
+    "RenderTexture": 1,
+    "Cubemap": 2,
+    "Avatar": 1,
+    "AnimatorController": 8,
+    "BoxCollider": 539,
+    "Animator": 15,
+    "Animation": 107,
+    "FlareLayer": 1,
+    "SphereCollider": 74,
+    "SkinnedMeshRenderer": 11,
+    "ParticleSystem": 38,
+    "ParticleSystemRenderer": 38,
+    "AudioListener": 1,
+    "AudioSource": 2,
+    "TextMesh": 2,
+    "Light": 1,
+    "CapsuleCollider": 3,
+    "CharacterController": 1,
+    "AudioHighPassFilter": 1,
+    "AudioLowPassFilter": 1,
+    "CanvasRenderer": 1,
+    "Canvas": 1,
+    "RectTransform": 2,
+    "TextAsset": 143,
+    "MeshCollider": 1,
+    "TrailRenderer": 4,
+    "SpriteRenderer": 4
+  },
+  "missing_objects": [],
+  "added_objects": [],
+  "nontexture_objects_compared": 44258,
+  "changed_nontexture_objects": [],
+  "texture_metadata_changes": 70,
+  "embedded_png_matches": {
+    "resources.assets_74_effects_tex.png": true,
+    "resources.assets_75_emblem_halloween.png": true,
+    "resources.assets_76_trailAlpha.png": true,
+    "resources.assets_77_event_bg.png": true,
+    "resources.assets_78_props_tex.png": true,
+    "resources.assets_79_board_RioHD_tex.png": true,
+    "resources.assets_80_board_windglider_tex.png": true,
+    "resources.assets_81_circle_bg_mask.png": true,
+    "resources.assets_82_icon_key_cloud_mask.png": true,
+    "resources.assets_83_bobbleMiami.png": true,
+    "resources.assets_84_shineAdditive.png": true,
+    "resources.assets_85_selector.png": true,
+    "resources.assets_86_icon_00_Brody.png": true,
+    "resources.assets_87_icon_03_Ninja.png": true,
+    "resources.assets_88_board_scoot_tex.png": true,
+    "resources.assets_89_scoreboard.png": true,
+    "resources.assets_90_background_glow_smb_straight.png": true,
+    "resources.assets_91_icon_05_KIng.png": true,
+    "resources.assets_92_board_starterpack_tex.png": true,
+    "resources.assets_93_trail.png": true,
+    "resources.assets_94_material_effect_puff.png": true,
+    "resources.assets_95_whitebox.png": true,
+    "resources.assets_96_board_superhero_tex.png": true,
+    "resources.assets_97_icon_07_Yutani.png": true,
+    "resources.assets_98_board_hotRod_tex.png": true,
+    "resources.assets_99_front_icon_shop.png": true,
+    "resources.assets_100_ssBlurred.png": true,
+    "resources.assets_101_board_star_tex.png": true,
+    "resources.assets_102_board_londonExtra_tex.png": true,
+    "resources.assets_103_icon_star.png": true,
+    "resources.assets_104_icon_08_Spike.png": true,
+    "resources.assets_105_board_daredevil_tex.png": true,
+    "resources.assets_106_video_button_tv_icon_mask.png": true,
+    "resources.assets_108_board_skullfire_tex.png": true,
+    "resources.assets_109_bobble.png": true,
+    "resources.assets_110_img_char_jake.png": true,
+    "resources.assets_111_icon_friend.png": true,
+    "resources.assets_112_mysterybox_bg.png": true,
+    "resources.assets_113_background_frame_blur.png": true,
+    "resources.assets_114_background_sticker_medium_mask.png": true,
+    "resources.assets_115_icon_04_Lucy.png": true,
+    "resources.assets_116_HighResAtlas.png": true,
+    "resources.assets_117_board_bouncer_tex.png": true,
+    "resources.assets_118_hunt_prize_bg.png": true,
+    "resources.assets_119_awards_bg.png": true,
+    "resources.assets_120_board_greatWhite_tex.png": true,
+    "resources.assets_121_icon_01_Tagbot.png": true,
+    "resources.assets_122_icon_mystery_box_mask.png": true,
+    "resources.assets_123_double_coins_button_mask.png": true,
+    "resources.assets_124_trail2.png": true,
+    "resources.assets_125_board_teleporter_tex.png": true,
+    "resources.assets_126_Fade.png": true,
+    "resources.assets_127_amsterdam_prop_tex.png": true,
+    "resources.assets_128_board_sunset_tex.png": true,
+    "resources.assets_129_front_icon_top_run.png": true,
+    "resources.assets_130_icon_02_Tasha.png": true,
+    "resources.assets_131_butterfly_idleScreen_tex.png": true,
+    "resources.assets_132_ageRestriction_characterHeader.png": true,
+    "resources.assets_133_background_glow_award.png": true,
+    "resources.assets_134_icon_star.png": true,
+    "resources.assets_135_spraySplash.png": true,
+    "resources.assets_136_board_lowrider_tex.png": true,
+    "resources.assets_137_board_lumberjack_tex.png": true,
+    "resources.assets_139_icon_small_mini_mysteryBox_mask.png": true,
+    "resources.assets_140_front_icon_MyTour.png": true,
+    "resources.assets_141_board_snowboard_tex.png": true,
+    "resources.assets_142_GenericMenuColors.png": true,
+    "resources.assets_143_icon_09_Fresh.png": true,
+    "resources.assets_144_tokyo_stripe.png": true,
+    "resources.assets_145_Icon_coin_pouch_large_mask.png": true,
+    "resources.assets_146_front_icon_me.png": true,
+    "resources.assets_147_welcome_pack_main_button_mask.png": true,
+    "resources.assets_148_board_bigKahuna_tex.png": true,
+    "resources.assets_149_board_default_tex.png": true,
+    "resources.assets_150_board_tokyoExtra_tex.png": true,
+    "resources.assets_151_icon_11_Tricky.png": true,
+    "resources.assets_152_HighResCountriesAtlas.png": true,
+    "resources.assets_153_char_king.png": true,
+    "resources.assets_154_LowResAtlas.png": true,
+    "resources.assets_155_img_track.png": true,
+    "resources.assets_156_board_monster_tex.png": true,
+    "resources.assets_157_MissionsFont_small-export.png": true,
+    "sharedassets0.assets_7_GenericAtlas.png": true,
+    "sharedassets0.assets_9_1.91_NewYork_load_splash_v2.png": true,
+    "sharedassets1.assets_44_Default-Particle.png": true,
+    "sharedassets1.assets_45_teleboardFX.png": true,
+    "sharedassets1.assets_46_1.101.0_Zurich_trains.png": true,
+    "sharedassets1.assets_47_1.101.0_Zurich_waterReflection.png": true,
+    "sharedassets1.assets_48_1.101.0_Zurich_train_start.png": true,
+    "sharedassets1.assets_49_material_effect_paintSpray.png": true,
+    "sharedassets1.assets_50_celebration_background.png": true,
+    "sharedassets1.assets_51_jetpackSmoke.png": true,
+    "sharedassets1.assets_52_1.101.0_Zurich_waterfall.png": true,
+    "sharedassets1.assets_54_railRamp.png": true,
+    "sharedassets1.assets_55_lavaGlowingParticle.png": true,
+    "sharedassets1.assets_56_white.png": true,
+    "sharedassets1.assets_57_grindsparkFX.png": true,
+    "sharedassets1.assets_58_1.101.0_Zurich_environment.png": true,
+    "sharedassets1.assets_59_0.00_Generic_flyingBird_tex.png": true,
+    "sharedassets1.assets_60_1.101.0_Zurich_trains_low.png": true,
+    "sharedassets1.assets_61_celebration_stripe.png": true,
+    "sharedassets1.assets_62_1.101.0_Zurich_enemies.png": true
+  },
+  "png_files": [
+    {
+      "file": "sharedassets0.assets_7_GenericAtlas.png",
+      "changed": true,
+      "size_before": [
+        512,
+        512
+      ],
+      "size_after": [
+        512,
+        512
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "c2c93f9e47f013efea13debf50dcfa321ef947da3bd3c867f0c336238fd65bd5",
+      "current_sha256": "a0ea22344aa70d2ff8e33fc897675f2aea9c6e293ecf89013f6e257f99d9ebb2"
+    },
+    {
+      "file": "sharedassets0.assets_9_1.91_NewYork_load_splash_v2.png",
+      "changed": true,
+      "size_before": [
+        1024,
+        1024
+      ],
+      "size_after": [
+        1024,
+        1024
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "1544a55645193ae7a5c9eb9d0ef6b747f44f1cdc5eff80222b52ebe1fb7c0a11",
+      "current_sha256": "5aa0af317e059ef68ba4cb8b022e13e8e983350911036b0e2e6cadf30e3b0bd0"
+    },
+    {
+      "file": "sharedassets1.assets_44_Default-Particle.png",
+      "changed": false,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "bbf31dafa9428b7248d42798a0fd68c358f36d4cf5bd073af8aa54b7b37ff617",
+      "current_sha256": "bbf31dafa9428b7248d42798a0fd68c358f36d4cf5bd073af8aa54b7b37ff617"
+    },
+    {
+      "file": "sharedassets1.assets_45_teleboardFX.png",
+      "changed": false,
+      "size_before": [
+        16,
+        16
+      ],
+      "size_after": [
+        16,
+        16
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "70eba71334b327f0617889c2b646dd0a9db3df4066a608b1ae0ff3db82dd6816",
+      "current_sha256": "70eba71334b327f0617889c2b646dd0a9db3df4066a608b1ae0ff3db82dd6816"
+    },
+    {
+      "file": "sharedassets1.assets_46_1.101.0_Zurich_trains.png",
+      "changed": true,
+      "size_before": [
+        512,
+        512
+      ],
+      "size_after": [
+        512,
+        512
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "05d0cf3f84139d5296ebd6c37cc4229e84272a3afc775eb789c2c30f793e30c7",
+      "current_sha256": "2b848c32b6fe03a8b54f4393daedab3a08f39759e6726f7e4d4f25569f2be15c"
+    },
+    {
+      "file": "sharedassets1.assets_47_1.101.0_Zurich_waterReflection.png",
+      "changed": true,
+      "size_before": [
+        512,
+        256
+      ],
+      "size_after": [
+        512,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "7b53f5722251f13809903b37d4ca9d3ee1c571e1fe4e49966cd007c93a8879ca",
+      "current_sha256": "ae46c6832a19b485920465531230c36750dae315976136c2d96b7910623986fc"
+    },
+    {
+      "file": "sharedassets1.assets_48_1.101.0_Zurich_train_start.png",
+      "changed": true,
+      "size_before": [
+        1024,
+        1024
+      ],
+      "size_after": [
+        1024,
+        1024
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "696be1ae6aa64afba2f6c71b9c262aeb020d2b3676a8998bbf077163185e4246",
+      "current_sha256": "ea60631618ac7e94765188c3f71754a1c9019e76f2e023554bb10762cb95fb71"
+    },
+    {
+      "file": "sharedassets1.assets_49_material_effect_paintSpray.png",
+      "changed": false,
+      "size_before": [
+        128,
+        128
+      ],
+      "size_after": [
+        128,
+        128
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "15235be16305111c7ce708a3303a1a0029d2a56098b3dcb3de708bc4a4a8a29b",
+      "current_sha256": "15235be16305111c7ce708a3303a1a0029d2a56098b3dcb3de708bc4a4a8a29b"
+    },
+    {
+      "file": "sharedassets1.assets_50_celebration_background.png",
+      "changed": true,
+      "size_before": [
+        64,
+        1
+      ],
+      "size_after": [
+        64,
+        1
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "697213e6aaf6146fbf0e53d640c1bea54af59aee3d2cf7a965e95512484b775e",
+      "current_sha256": "2d7028e0b6db179d3b4da1e5a7b7d3290a600114a76987f38730ec8e8deb8bf1"
+    },
+    {
+      "file": "sharedassets1.assets_51_jetpackSmoke.png",
+      "changed": true,
+      "size_before": [
+        128,
+        32
+      ],
+      "size_after": [
+        128,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "d429e9308400d2604eb395136becf554031609592671bd5fc58366f95c4331eb",
+      "current_sha256": "8673d22bc15b31a3fdd440beb933cc96b746e7cf652c0885d5864f8c49cd9ba4"
+    },
+    {
+      "file": "sharedassets1.assets_52_1.101.0_Zurich_waterfall.png",
+      "changed": true,
+      "size_before": [
+        64,
+        128
+      ],
+      "size_after": [
+        64,
+        128
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "7e461209e448c572f0e83a74678933cdac58db74507075a535c9dedf5dbdcb09",
+      "current_sha256": "ab17c63f1fd69edcb2ce754b9b3a494589757351649df3ae2b1792ded3c3c28d"
+    },
+    {
+      "file": "sharedassets1.assets_54_railRamp.png",
+      "changed": true,
+      "size_before": [
+        16,
+        32
+      ],
+      "size_after": [
+        16,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "9ca5aead02a38ab10abe718618496807703692dedad9f1a42c2a5aa935971b51",
+      "current_sha256": "30d30c0aecc9c1198f404c8a254224fbecf32a7905647085758ee3b8ed526894"
+    },
+    {
+      "file": "sharedassets1.assets_55_lavaGlowingParticle.png",
+      "changed": false,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "575a702ea0deec88110d5c94593f054649038cd51967252577a25af8b0985b44",
+      "current_sha256": "575a702ea0deec88110d5c94593f054649038cd51967252577a25af8b0985b44"
+    },
+    {
+      "file": "sharedassets1.assets_56_white.png",
+      "changed": false,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "f7b9da3b59df7c5a2d0ea2f7ce260c20fef37a0f550d150075a7f3c08b50a7de",
+      "current_sha256": "f7b9da3b59df7c5a2d0ea2f7ce260c20fef37a0f550d150075a7f3c08b50a7de"
+    },
+    {
+      "file": "sharedassets1.assets_57_grindsparkFX.png",
+      "changed": false,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "863e1bdffba189f99de697af7d1b964407beb8a820861f54dd95b1ef93b7a4cc",
+      "current_sha256": "863e1bdffba189f99de697af7d1b964407beb8a820861f54dd95b1ef93b7a4cc"
+    },
+    {
+      "file": "sharedassets1.assets_58_1.101.0_Zurich_environment.png",
+      "changed": true,
+      "size_before": [
+        1024,
+        1024
+      ],
+      "size_after": [
+        1024,
+        1024
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "69748993b416c7356e9ce5e864f91424d8c5ace1f086ac870ed281a931e5112e",
+      "current_sha256": "1705079799dce8ae349ac603d9dc02dc9c7636c8ae6f497e5a92ce08c9a78751"
+    },
+    {
+      "file": "sharedassets1.assets_59_0.00_Generic_flyingBird_tex.png",
+      "changed": true,
+      "size_before": [
+        16,
+        32
+      ],
+      "size_after": [
+        16,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "6e7e2880a514bde4859e3e8b26e5c7b81df89f91ea520482d728349a967bda64",
+      "current_sha256": "b3fa76da5e06cdee4b26e29bfe2f6cee11a3c6d7540be51717437654f78792dd"
+    },
+    {
+      "file": "sharedassets1.assets_60_1.101.0_Zurich_trains_low.png",
+      "changed": true,
+      "size_before": [
+        512,
+        512
+      ],
+      "size_after": [
+        512,
+        512
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "7f1f4561bc53e1095fe3f0aadf2ca285da95b51b81d13bc0393cb7f73dc0772c",
+      "current_sha256": "58b352ed7f1c94ecb4cd897594c69df4e174057ed1f9441407e90a5f40a5c409"
+    },
+    {
+      "file": "sharedassets1.assets_61_celebration_stripe.png",
+      "changed": false,
+      "size_before": [
+        256,
+        16
+      ],
+      "size_after": [
+        256,
+        16
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "ad823092744f34077903cb3fd3c7b7bd6fd12eb7017d0e0c549e18b95285e276",
+      "current_sha256": "ad823092744f34077903cb3fd3c7b7bd6fd12eb7017d0e0c549e18b95285e276"
+    },
+    {
+      "file": "sharedassets1.assets_62_1.101.0_Zurich_enemies.png",
+      "changed": true,
+      "size_before": [
+        512,
+        512
+      ],
+      "size_after": [
+        512,
+        512
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "492cc9e1b3960f7cf69241794ed1eb905812f0cf7f962ee101be44b3e29a3db2",
+      "current_sha256": "e2bf9ae33a108d6c9527f40fdcd36d4ae358e04e507d444e4c124104cbea124e"
+    },
+    {
+      "file": "resources.assets_74_effects_tex.png",
+      "changed": true,
+      "size_before": [
+        128,
+        64
+      ],
+      "size_after": [
+        128,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "6c5b58e699a4a21abd1aa00ea162ccb6baf1b5b31d8576aa6acaf32ab975c607",
+      "current_sha256": "eb659f845da655d0d4a0c0023dbb9093112cc35a827d0bd2ff53818987a8b188"
+    },
+    {
+      "file": "resources.assets_75_emblem_halloween.png",
+      "changed": true,
+      "size_before": [
+        196,
+        220
+      ],
+      "size_after": [
+        196,
+        220
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "51fe772bc097a934b2b3d0b053e9e8eaa9d99a626e6b61bd7fc119212ce668f1",
+      "current_sha256": "34890a2b0a78c020412cfb4047af1a46f824f793501052902e25e075dadec612"
+    },
+    {
+      "file": "resources.assets_76_trailAlpha.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "809c55dcf40a0bcba77aef7800ce124cd20e59d2df06ab487d2422dd997cb6ef",
+      "current_sha256": "5916d8653e0800f187fb63d80d5bbd8c21e8651179af94d69caf6bad92b119f7"
+    },
+    {
+      "file": "resources.assets_77_event_bg.png",
+      "changed": true,
+      "size_before": [
+        128,
+        128
+      ],
+      "size_after": [
+        128,
+        128
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "97e2df781fa38f399cfde9dd6c05b75b46a5bd4ceca4f9abcb632d4f0195ee95",
+      "current_sha256": "5afa9281ace4208044fe7a7dfeeebe331ee0ed9a426a5024d1133ffba122c4d2"
+    },
+    {
+      "file": "resources.assets_78_props_tex.png",
+      "changed": true,
+      "size_before": [
+        512,
+        512
+      ],
+      "size_after": [
+        512,
+        512
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "2297612b679949e09b5a4d7ed456e22713fb0b5a701ccf5e1ed6b606ba14765f",
+      "current_sha256": "d75ecfa727355ed325bb54d74d2ca20a09849baf6bd551607fd8369979c701b5"
+    },
+    {
+      "file": "resources.assets_79_board_RioHD_tex.png",
+      "changed": true,
+      "size_before": [
+        16,
+        32
+      ],
+      "size_after": [
+        16,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "712f1709184527c94b143265c3ea0a5e49a19d18d9856153bf12f4d2df224568",
+      "current_sha256": "708d072878298d7a5b60d023db35ed7cb149edced13f6600560ce505c70584a4"
+    },
+    {
+      "file": "resources.assets_80_board_windglider_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "2692e8f4bef5487bdd4205c82ad4b7aa61bc50bdee3cac3ba4b520d9806a3e99",
+      "current_sha256": "ca69eb195a9d46a5d6a6fdeeddb1f93f71f30dcc0a9ac0eb8241e0816216a71f"
+    },
+    {
+      "file": "resources.assets_81_circle_bg_mask.png",
+      "changed": false,
+      "size_before": [
+        100,
+        100
+      ],
+      "size_after": [
+        100,
+        100
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "5c7825963731803f7e82e366897bba1ab7e058cf3386000f41d13c1929d25be4",
+      "current_sha256": "5c7825963731803f7e82e366897bba1ab7e058cf3386000f41d13c1929d25be4"
+    },
+    {
+      "file": "resources.assets_82_icon_key_cloud_mask.png",
+      "changed": false,
+      "size_before": [
+        88,
+        64
+      ],
+      "size_after": [
+        88,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "480eb11e9d033e5c7fda04a97b1defd98f4f8cd65142ed18b49a7f658ea9f3ae",
+      "current_sha256": "480eb11e9d033e5c7fda04a97b1defd98f4f8cd65142ed18b49a7f658ea9f3ae"
+    },
+    {
+      "file": "resources.assets_83_bobbleMiami.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "feeac2a7fa417bf9805911cb6d9defcc1bbc224f4134dc28e70f2dbcb471c28a",
+      "current_sha256": "732b7e87460f7309792c689b66615fc44e3f1182535437c641e6b5576d70b2b2"
+    },
+    {
+      "file": "resources.assets_84_shineAdditive.png",
+      "changed": false,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "a7792b588d61e00d1f0a98b581405a598eaf588825ab5fecf7b7fdf3d0168c55",
+      "current_sha256": "a7792b588d61e00d1f0a98b581405a598eaf588825ab5fecf7b7fdf3d0168c55"
+    },
+    {
+      "file": "resources.assets_85_selector.png",
+      "changed": false,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "56fa35e21923bcd36e8ffb95cc4ffc561524e7ea3107737ea66a05ff4ef3fce5",
+      "current_sha256": "56fa35e21923bcd36e8ffb95cc4ffc561524e7ea3107737ea66a05ff4ef3fce5"
+    },
+    {
+      "file": "resources.assets_86_icon_00_Brody.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "a4da75f45ad1854df673129688773e71a865342eb38bde2310c6fe508b65fd40",
+      "current_sha256": "9d1efbbeb82246528df03c8550b7fe0ac29977a66bc9a1a1f8ade6ca7235bd40"
+    },
+    {
+      "file": "resources.assets_87_icon_03_Ninja.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "02218cde59c12376cfa71847506f9bd12cd4b1c2973f8818ca5f18995a2ba856",
+      "current_sha256": "c6be7bcd30dafdb4a75c4974e63bb64b6298afef8e556e234b0b54bf69559d5e"
+    },
+    {
+      "file": "resources.assets_88_board_scoot_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "06764c54c27b236eddf2eccb5d00839d713269e3c65194e146f2191afbf7585d",
+      "current_sha256": "831fa953f57ae859316679366ecdef1b4ae08f3c2013deceee08d629a4015197"
+    },
+    {
+      "file": "resources.assets_89_scoreboard.png",
+      "changed": true,
+      "size_before": [
+        512,
+        256
+      ],
+      "size_after": [
+        512,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "f43f3901c3ad3796e685c8450013cc12c5b70cff22a76f698002ac3b18c92c75",
+      "current_sha256": "7bdc5c3cd697e3e88e89da6542c31f2772ba620f9fbf3437323af2df6eeeeac9"
+    },
+    {
+      "file": "resources.assets_90_background_glow_smb_straight.png",
+      "changed": false,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "b304c35064876470da2218ab9a5292f272d8a3ce253bcbcf38477c1cf567a6b5",
+      "current_sha256": "b304c35064876470da2218ab9a5292f272d8a3ce253bcbcf38477c1cf567a6b5"
+    },
+    {
+      "file": "resources.assets_91_icon_05_KIng.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "444b91870a19a714f12156b5bc7527f96489685d05ae731aaee0155becd5a9a5",
+      "current_sha256": "dff7e9ac068e8a83641cea94fe321096fd33371aa005e87763ecf5dcc3b8cb30"
+    },
+    {
+      "file": "resources.assets_92_board_starterpack_tex.png",
+      "changed": true,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "1bdf6a987193c75a9cfc0b04fa5af4e1d9c03842cc7ea3deb1ad3f4f8e162e05",
+      "current_sha256": "2ae99fa34f50ecb6b93ff40471ec4b64cddc4e08e12b4db7fc290f490e636fa7"
+    },
+    {
+      "file": "resources.assets_93_trail.png",
+      "changed": false,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "f1b9d086cbfc86fa58b03c683c0c44598f21b2ab8c4f09898a2dc7f15a3f927d",
+      "current_sha256": "f1b9d086cbfc86fa58b03c683c0c44598f21b2ab8c4f09898a2dc7f15a3f927d"
+    },
+    {
+      "file": "resources.assets_94_material_effect_puff.png",
+      "changed": false,
+      "size_before": [
+        128,
+        128
+      ],
+      "size_after": [
+        128,
+        128
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "1874b71fb05233d5c8c2ce6e3f14274d9a42d8b0e348525ddf8547573c86ce95",
+      "current_sha256": "1874b71fb05233d5c8c2ce6e3f14274d9a42d8b0e348525ddf8547573c86ce95"
+    },
+    {
+      "file": "resources.assets_95_whitebox.png",
+      "changed": false,
+      "size_before": [
+        3,
+        3
+      ],
+      "size_after": [
+        3,
+        3
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "0dfbffa9893df3d8ca3413fdd118b7e52ef2eab2822fe26a3f7d6db5e4100ed5",
+      "current_sha256": "0dfbffa9893df3d8ca3413fdd118b7e52ef2eab2822fe26a3f7d6db5e4100ed5"
+    },
+    {
+      "file": "resources.assets_96_board_superhero_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "3a626bb1ffd741eb37a47fb988ea9a7cea6b36b46c8e3922aa1d71b9e3907b4f",
+      "current_sha256": "f85b4c3ca4f58abd2c601d99c326f34294c6def3588dec0b7c51b3de62f933c1"
+    },
+    {
+      "file": "resources.assets_97_icon_07_Yutani.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "1a465ea3c83c699549103694947bb5f08944b7b3c6b529f57dd4580bc1a39198",
+      "current_sha256": "0dc47e762573ec01c212ba60d6e519090ccbcffd069527addfada1e45d58e22d"
+    },
+    {
+      "file": "resources.assets_98_board_hotRod_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "f0ce2fd702d7cfd546ff9c2d81d308fadbb079482dca73cb0a097b4eb5a290ed",
+      "current_sha256": "24ccc4bf196a59f757f59e67a96b9e7875a5901cbed0d9c42b48dbc45a439898"
+    },
+    {
+      "file": "resources.assets_99_front_icon_shop.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "95589caed8155994ebadb3a401d432102d957b262db18c4f8ab2038d4fbd0521",
+      "current_sha256": "dfdf4c2f9cde17f60547857fb68e7623db55fbba46223dd88454996a70152b12"
+    },
+    {
+      "file": "resources.assets_100_ssBlurred.png",
+      "changed": true,
+      "size_before": [
+        512,
+        512
+      ],
+      "size_after": [
+        512,
+        512
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "3dc2da87c56537a1ddab1d85fa0ec15de53ec3585f823be3320d6cd47e1f4152",
+      "current_sha256": "614096616c73fc487e6cfee89a1d5b8fe1c7632d11b02e619a3f22739fcfecb7"
+    },
+    {
+      "file": "resources.assets_101_board_star_tex.png",
+      "changed": true,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "edff8820dcfa6fb13125d24c2b7924d9d225e9e0b619f95242894a868365dbb2",
+      "current_sha256": "854395ace2cc8bc6e726a2233df1b32e5daba077a5d125dea0085f2a0b20f3bf"
+    },
+    {
+      "file": "resources.assets_102_board_londonExtra_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "e6bdc2cf9df6c3453088724a948c96b86fa90b23d48e8c7477e2672e7fe2d80e",
+      "current_sha256": "bd4a90f659f970047057f44a4761cafb17ff57c371a691d06e1ec2d0c0ca8043"
+    },
+    {
+      "file": "resources.assets_103_icon_star.png",
+      "changed": false,
+      "size_before": [
+        20,
+        19
+      ],
+      "size_after": [
+        20,
+        19
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "347b801cfac7a2d4b26b248e941dbf10a4e5b2626f7ffb53438188785951c712",
+      "current_sha256": "347b801cfac7a2d4b26b248e941dbf10a4e5b2626f7ffb53438188785951c712"
+    },
+    {
+      "file": "resources.assets_104_icon_08_Spike.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "69fa50ecde285120346d0a889e3aa85449e40de346a21bdfb2d9920e3400126b",
+      "current_sha256": "a6074433c6bfed431232f44f02948d9b2628a8085f0227d4107a9c0c40d6a77b"
+    },
+    {
+      "file": "resources.assets_105_board_daredevil_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "89f011e61cad7d8cd90f5055f4e26526b914ccef9a3d4bb174e8c321f5ac8cd6",
+      "current_sha256": "9a996e8f177286dfec4ec8e6d7706e0b2d4fb7d523b8cddfa8c753b6158707f6"
+    },
+    {
+      "file": "resources.assets_106_video_button_tv_icon_mask.png",
+      "changed": false,
+      "size_before": [
+        85,
+        104
+      ],
+      "size_after": [
+        85,
+        104
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "8e229f0d88a102db0d916d81da50a17aa9b527c679a16428dd3bc5cfe31c51ac",
+      "current_sha256": "8e229f0d88a102db0d916d81da50a17aa9b527c679a16428dd3bc5cfe31c51ac"
+    },
+    {
+      "file": "resources.assets_108_board_skullfire_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "57d9c6420b4d984e2b6fca83efa377e5d702ec71d2c4ddcb3d776ff86eae0e88",
+      "current_sha256": "9add9dd3bd194601c938c248ad107570fe53a1599cf62770cd268ccbb8ced599"
+    },
+    {
+      "file": "resources.assets_109_bobble.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "89de233f20606bd5f6ec71d2b368fe5e763f2ade25cf6ab9056553cd13e93ff1",
+      "current_sha256": "4cba5e33409da9b032e17a2de4f6bccdcd67de26555b642f8d9614063e809335"
+    },
+    {
+      "file": "resources.assets_110_img_char_jake.png",
+      "changed": true,
+      "size_before": [
+        280,
+        404
+      ],
+      "size_after": [
+        280,
+        404
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "8b51c5621359ba1d214c5b62a872296e1b2e5b20dee4cbaa8cc89efa82a844a5",
+      "current_sha256": "9aef0b27e5bb60d670904d3044a1578d4825802ef4c99ea35bf3948541db7dd1"
+    },
+    {
+      "file": "resources.assets_111_icon_friend.png",
+      "changed": true,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "bc5e1694fc62e78404f2b9a5743b2600e1df164408f6673a98ae25aee9b03304",
+      "current_sha256": "50ab5df086bc95db3cb07ea44ef55d25ef55a2ddbd89df0555585bc9e61ffa30"
+    },
+    {
+      "file": "resources.assets_112_mysterybox_bg.png",
+      "changed": true,
+      "size_before": [
+        1024,
+        1024
+      ],
+      "size_after": [
+        1024,
+        1024
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "d140371fbd79d5cb5ddb7819cd3555c8600c86781fa77da03cc53a9c371572fc",
+      "current_sha256": "6b81c3a647c2cbd7f3c9b8d9e38ca776968aa28e4a5ba54ffb1add5e38dda5cf"
+    },
+    {
+      "file": "resources.assets_113_background_frame_blur.png",
+      "changed": false,
+      "size_before": [
+        35,
+        13
+      ],
+      "size_after": [
+        35,
+        13
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "9108fcc3b60aa0c5cb2653b6a88ca66b8db86e455def52ad8bf8f532afb4d8a9",
+      "current_sha256": "9108fcc3b60aa0c5cb2653b6a88ca66b8db86e455def52ad8bf8f532afb4d8a9"
+    },
+    {
+      "file": "resources.assets_114_background_sticker_medium_mask.png",
+      "changed": false,
+      "size_before": [
+        114,
+        114
+      ],
+      "size_after": [
+        114,
+        114
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "48d82babe07d7b9f507a0df2bec44a7972c51feae25a619d2bda7fc5a7aa1080",
+      "current_sha256": "48d82babe07d7b9f507a0df2bec44a7972c51feae25a619d2bda7fc5a7aa1080"
+    },
+    {
+      "file": "resources.assets_115_icon_04_Lucy.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "1dcf1263811657d9c5add268031150c539ca547e9f765c53e91224966508fc26",
+      "current_sha256": "30ab95cd8452312787bf33ade87438378faa87f189ab4f419e51ae20101171f6"
+    },
+    {
+      "file": "resources.assets_116_HighResAtlas.png",
+      "changed": true,
+      "size_before": [
+        2048,
+        1024
+      ],
+      "size_after": [
+        2048,
+        1024
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "3a0fc1de6396e4ffcb2c3ece045f061ea7d7fd2567af8636607b42de2abb4f95",
+      "current_sha256": "90ec167e6107d60b3d111e39235a22b47cc95981c915255e1e8ac81fd43f9963"
+    },
+    {
+      "file": "resources.assets_117_board_bouncer_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "a890d2ac7ef710cc8471c0cec9a12162cebeedc6f7585efe9dc85ce6a3688dae",
+      "current_sha256": "ccdee600f7df00897a9e8ccf54dc7b0b324787d33b792f6899e604638f787ad8"
+    },
+    {
+      "file": "resources.assets_118_hunt_prize_bg.png",
+      "changed": true,
+      "size_before": [
+        128,
+        4
+      ],
+      "size_after": [
+        128,
+        4
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "e022e81e1621fbcd301f3ff5146df33401daf27d580698b6f278f37cdf52b0e9",
+      "current_sha256": "60402103dc5d105ff8affd118bb544062280476f14bc7d9c0d29f343da985dbe"
+    },
+    {
+      "file": "resources.assets_119_awards_bg.png",
+      "changed": true,
+      "size_before": [
+        512,
+        512
+      ],
+      "size_after": [
+        512,
+        512
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "4deb359a7d2a025d102bc6f13b64c31c6a82d09a72f5b073cbbf9eebab28730e",
+      "current_sha256": "b15774afdfd79d32fc9287d4928105ea025af27b55da03bde69aad0ec3230d1e"
+    },
+    {
+      "file": "resources.assets_120_board_greatWhite_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "0d1d4bd0afd720361fa2140661b1b65c28ff00d5e17c2f6b955f474e9e64a940",
+      "current_sha256": "5d96da6b6c2d355b8512a841d061e6603d5630ef9c1a61e24b7cb38601abf42f"
+    },
+    {
+      "file": "resources.assets_121_icon_01_Tagbot.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "15bf13c9bd4c28ede5496d5eb7845a392fd994fa73969d1e3077163fe1d74e7f",
+      "current_sha256": "422ca767d71c63c892f168adb2c409b45d1886fc08bffca37673c83033436417"
+    },
+    {
+      "file": "resources.assets_122_icon_mystery_box_mask.png",
+      "changed": false,
+      "size_before": [
+        146,
+        136
+      ],
+      "size_after": [
+        146,
+        136
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "202b53072434965a26ea2701800ae495d50d0cde60356b485f29da6eeb665f8e",
+      "current_sha256": "202b53072434965a26ea2701800ae495d50d0cde60356b485f29da6eeb665f8e"
+    },
+    {
+      "file": "resources.assets_123_double_coins_button_mask.png",
+      "changed": false,
+      "size_before": [
+        246,
+        59
+      ],
+      "size_after": [
+        246,
+        59
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "deb15f04b8fa9d56bebd58af677ec3eaf5cf1653a3fa82c0df4071c6579ee7e0",
+      "current_sha256": "deb15f04b8fa9d56bebd58af677ec3eaf5cf1653a3fa82c0df4071c6579ee7e0"
+    },
+    {
+      "file": "resources.assets_124_trail2.png",
+      "changed": false,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "4bf2ca8b239eaeadb3a45e4590ee18e43efbde3ae609cd4bbe5e7085c1c165f3",
+      "current_sha256": "4bf2ca8b239eaeadb3a45e4590ee18e43efbde3ae609cd4bbe5e7085c1c165f3"
+    },
+    {
+      "file": "resources.assets_125_board_teleporter_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "a1c5756507028edd22a452cf9e0beb919ea88f6c5a17f5ec706659f0b1c1207e",
+      "current_sha256": "d897e69b43052a22d179b0df73a2d3e10826ce79d82f0a9261d881b131a7955e"
+    },
+    {
+      "file": "resources.assets_126_Fade.png",
+      "changed": false,
+      "size_before": [
+        32,
+        3
+      ],
+      "size_after": [
+        32,
+        3
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "9a2e79bcfe287c47bde104f36082df350199f7513219c273cfe2e34b84313b48",
+      "current_sha256": "9a2e79bcfe287c47bde104f36082df350199f7513219c273cfe2e34b84313b48"
+    },
+    {
+      "file": "resources.assets_127_amsterdam_prop_tex.png",
+      "changed": true,
+      "size_before": [
+        4,
+        16
+      ],
+      "size_after": [
+        4,
+        16
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "70bfc2b70854d58ac69b4a1faf41734d7f92721a53cd2672e9d5cfdacabbcefc",
+      "current_sha256": "4ae729b4e1205a1f2ab94dd3486744a97a1bdc7d3f5980f87bcd8ffd62643bf5"
+    },
+    {
+      "file": "resources.assets_128_board_sunset_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "4583f624f2036cd728b500ff13324c6a2a4ebabcdb1afb5180297ee0a7930f0a",
+      "current_sha256": "0c225477ccec933be3d840cdb5ded087e5982231b174e6b6ecf2a9d9ddac8dcc"
+    },
+    {
+      "file": "resources.assets_129_front_icon_top_run.png",
+      "changed": true,
+      "size_before": [
+        512,
+        256
+      ],
+      "size_after": [
+        512,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "4893aeb5317b067e6f488dd91a7b7c58008e869652931ec636a869563188736c",
+      "current_sha256": "363979307e2e466516f45abe08c282607df393453fd141627af3d8e889e0e91c"
+    },
+    {
+      "file": "resources.assets_130_icon_02_Tasha.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "648d144dcb2e6fbbc50e2fd20e86f9e580dc8ea12769a0f5482f84a4286ceebb",
+      "current_sha256": "8331dfb90003f86da4e9097fe24f04fc620d6f3ead5223a4782fcc445ceae3b4"
+    },
+    {
+      "file": "resources.assets_131_butterfly_idleScreen_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        64
+      ],
+      "size_after": [
+        32,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "eeac611d58d1ef64a3c18d999137a33c00db72a553bc282b673b7ae0cdce9a23",
+      "current_sha256": "d722d8c85b38360b093fec8a7a3a105982e781b0f3750684245b26f955d81b19"
+    },
+    {
+      "file": "resources.assets_132_ageRestriction_characterHeader.png",
+      "changed": true,
+      "size_before": [
+        512,
+        256
+      ],
+      "size_after": [
+        512,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "a8ce4e317c6ae67da1e24085a6ed69ed060b53b75bb229e1a68adc42ca00766c",
+      "current_sha256": "584332f46f5d5b2ae7c057a8cedfc635f2e8097aab3f5ff8e683cc4a22ca211f"
+    },
+    {
+      "file": "resources.assets_133_background_glow_award.png",
+      "changed": false,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "73a2ae8b43962cd61227670117c36762e65f9726d02707bddc5551be49d3644f",
+      "current_sha256": "73a2ae8b43962cd61227670117c36762e65f9726d02707bddc5551be49d3644f"
+    },
+    {
+      "file": "resources.assets_134_icon_star.png",
+      "changed": false,
+      "size_before": [
+        40,
+        38
+      ],
+      "size_after": [
+        40,
+        38
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "de0711520a30f217418b98d50fda20d219cff7640e59ad8ee46945824c21ede6",
+      "current_sha256": "de0711520a30f217418b98d50fda20d219cff7640e59ad8ee46945824c21ede6"
+    },
+    {
+      "file": "resources.assets_135_spraySplash.png",
+      "changed": false,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "f3b25918057c2298ace55ca31d0115fda60b1c73ff63de32fc0cbfd78f74574b",
+      "current_sha256": "f3b25918057c2298ace55ca31d0115fda60b1c73ff63de32fc0cbfd78f74574b"
+    },
+    {
+      "file": "resources.assets_136_board_lowrider_tex.png",
+      "changed": true,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "8c9632f291fe47242d073ed8c6cb859f74de93bab77ae31ea6ac61a64c50b1bb",
+      "current_sha256": "851e7c18d0adb0b47c5d998d97311ce0b9c546de5107727c29f95960375fc6e5"
+    },
+    {
+      "file": "resources.assets_137_board_lumberjack_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "cb61c63af955c69466a25db7a7851bddff7a3dbd8e3724d745980b6e4574f108",
+      "current_sha256": "182e79d937e03e5ce1a30835e069876a1c8b1592fbfaea63c89c0088279f8591"
+    },
+    {
+      "file": "resources.assets_139_icon_small_mini_mysteryBox_mask.png",
+      "changed": false,
+      "size_before": [
+        54,
+        52
+      ],
+      "size_after": [
+        54,
+        52
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "132ad9dd8e6e67c10027261fb362a2b438362683fe25ed7669486403c3182835",
+      "current_sha256": "132ad9dd8e6e67c10027261fb362a2b438362683fe25ed7669486403c3182835"
+    },
+    {
+      "file": "resources.assets_140_front_icon_MyTour.png",
+      "changed": true,
+      "size_before": [
+        256,
+        128
+      ],
+      "size_after": [
+        256,
+        128
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "c791481506c604af83b006b42d683b419dc65205e767916de1da1443652c4b9a",
+      "current_sha256": "a0fecdc17bcfee9f25da158ea632146de2fa4e80403f06f3e5cb11304fe32ef7"
+    },
+    {
+      "file": "resources.assets_141_board_snowboard_tex.png",
+      "changed": true,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "c1dd446a64ecf3866d467e4c02074236ee734b9e45ee8960ffcdc2b76156bf12",
+      "current_sha256": "f624f6420079c77422263df43473c2f04c3796d852d39b1150e9a88ac6c45c10"
+    },
+    {
+      "file": "resources.assets_142_GenericMenuColors.png",
+      "changed": true,
+      "size_before": [
+        4,
+        4
+      ],
+      "size_after": [
+        4,
+        4
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "dc4d705b2d3ee0d00b3e6b9f4a27d3f458ed8bbf39908db51b8d6a49b525ef5e",
+      "current_sha256": "dc60ed058b8777e7bac69496bdf177395ad39f27e475882c8c3691bb2f1960d0"
+    },
+    {
+      "file": "resources.assets_143_icon_09_Fresh.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "423fec94ae5dad9145a6d69ff7190d0d847156241fb0a0feb45a6ef0592ef2af",
+      "current_sha256": "c82ba117c650ae2ba75c28899e906085c31cee49c174af890fbc06f3ae232dae"
+    },
+    {
+      "file": "resources.assets_144_tokyo_stripe.png",
+      "changed": false,
+      "size_before": [
+        10,
+        448
+      ],
+      "size_after": [
+        10,
+        448
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "11d645b9ad1d991f668259b47041830b7271cace4e348953f168656c22528e7e",
+      "current_sha256": "11d645b9ad1d991f668259b47041830b7271cace4e348953f168656c22528e7e"
+    },
+    {
+      "file": "resources.assets_145_Icon_coin_pouch_large_mask.png",
+      "changed": false,
+      "size_before": [
+        52,
+        70
+      ],
+      "size_after": [
+        52,
+        70
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "fd024dc97619a54270d08601a1e371d9784fe57de7c0ab10766441143a58f5ce",
+      "current_sha256": "fd024dc97619a54270d08601a1e371d9784fe57de7c0ab10766441143a58f5ce"
+    },
+    {
+      "file": "resources.assets_146_front_icon_me.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "b84a8bb5efeeeed1a74a53f26280ca2f420d3a0a78d88de34624fcb9cac11a75",
+      "current_sha256": "47cc9d2a81e76c1fa8012251963f21c90dac7b8d04010e213aeff86b02f888b8"
+    },
+    {
+      "file": "resources.assets_147_welcome_pack_main_button_mask.png",
+      "changed": false,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "0ace30e414ad2ea5c6697e95a8d5585a27077ba6de9f1ce60b88aabe58cff21c",
+      "current_sha256": "0ace30e414ad2ea5c6697e95a8d5585a27077ba6de9f1ce60b88aabe58cff21c"
+    },
+    {
+      "file": "resources.assets_148_board_bigKahuna_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        64
+      ],
+      "size_after": [
+        32,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "5ab393909368e7c202975fd63df70dee5c395b7a6b0f0ed8453cb1440b176c55",
+      "current_sha256": "2acfc28906161163ff220b4a780fbf8bc9340d9308c2b4a9e0cb7f54fc0702eb"
+    },
+    {
+      "file": "resources.assets_149_board_default_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "e0fe1bfa5d6a561b8ad8e332a299486998917ef2e040824664f8921680b69df2",
+      "current_sha256": "f9d9afae14798b1f38b0d827ba38f6a2a3937aa952c71199ec712d83e860839b"
+    },
+    {
+      "file": "resources.assets_150_board_tokyoExtra_tex.png",
+      "changed": true,
+      "size_before": [
+        64,
+        64
+      ],
+      "size_after": [
+        64,
+        64
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "46fff57ad92c52f0a98f369d91d10e54510d68f47743c5ddecb22f788291157f",
+      "current_sha256": "c6b09f0ac7feca4401a6c6d67222047c0320651ec63e4143cb16dbc4e1197d03"
+    },
+    {
+      "file": "resources.assets_151_icon_11_Tricky.png",
+      "changed": true,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "553f602c773090e1b4bdf243b03f8f940650bb4c31f36b4f86441740acb8a65a",
+      "current_sha256": "21aaaf33692c65f2f81f01be60d603cd0a106de0d70ab85dc068f91aee901193"
+    },
+    {
+      "file": "resources.assets_152_HighResCountriesAtlas.png",
+      "changed": false,
+      "size_before": [
+        1024,
+        1024
+      ],
+      "size_after": [
+        1024,
+        1024
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "5971832dcc042eb6b1c93e402284ca703720ea6fd8a4fb925a1a0cfbc512dcf4",
+      "current_sha256": "5971832dcc042eb6b1c93e402284ca703720ea6fd8a4fb925a1a0cfbc512dcf4"
+    },
+    {
+      "file": "resources.assets_153_char_king.png",
+      "changed": true,
+      "size_before": [
+        276,
+        268
+      ],
+      "size_after": [
+        276,
+        268
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "0f30cb675bd7cfb556d902411012a11a26315bc4658f6df313084c9f69af9e04",
+      "current_sha256": "a58970524fb196da410ec457fe27f5ea8fcf532750fb91ecd9250bd37477491b"
+    },
+    {
+      "file": "resources.assets_154_LowResAtlas.png",
+      "changed": true,
+      "size_before": [
+        1024,
+        512
+      ],
+      "size_after": [
+        1024,
+        512
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "24e8dde238c86785d640c431ef503b53121a2f1e0cccde2bff36c23c237b0b1b",
+      "current_sha256": "9a82f2d1f1bc9cc8f9a17608dbac5d36fcf5a212d7f298266ca7701a1faa6589"
+    },
+    {
+      "file": "resources.assets_155_img_track.png",
+      "changed": true,
+      "size_before": [
+        480,
+        156
+      ],
+      "size_after": [
+        480,
+        156
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "2d3ce8b62ff6c43004cd9e718da03ab50e20cf285f347b0ab01cf28cd01124d6",
+      "current_sha256": "a5a220c8f21621f81819af7a80f6980263a4b83aad6ac18c59cf3c14a562ade6"
+    },
+    {
+      "file": "resources.assets_156_board_monster_tex.png",
+      "changed": true,
+      "size_before": [
+        32,
+        32
+      ],
+      "size_after": [
+        32,
+        32
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "2eb6da0ed3bb0afdb43400ef41277d51b9a395e860511b79fcfb673d3aafebfc",
+      "current_sha256": "90c4a7b1faf7b76284a5345197088cd34081b9606aaddb8d392608b22429be0a"
+    },
+    {
+      "file": "resources.assets_157_MissionsFont_small-export.png",
+      "changed": false,
+      "size_before": [
+        256,
+        256
+      ],
+      "size_after": [
+        256,
+        256
+      ],
+      "size_ok": true,
+      "alpha_ok": true,
+      "source_sha256": "2eb168ec6fdd9420aa2509e94b86789f28f60f1fe602f83fcba7d58f3f62ec33",
+      "current_sha256": "2eb168ec6fdd9420aa2509e94b86789f28f60f1fe602f83fcba7d58f3f62ec33"
+    }
+  ],
+  "source_binary_payloads": {
+    "Managed/mono/4.0/machine.config": "6919d5af506aae0d93e91bd83418a81895a5554b9f54cf94aad20d025a4db664",
+    "Il2CppData/Metadata/global-metadata.dat": "81547a66d4f3c470b5ab3c4393f799bc485915914618193753dbe04d48d96720",
+    "boot.config": "78cc47cbbed8923df2d9eb2da0c8fd7b3b400b3353544adb47c327802fc0ba56",
+    "resources.resource": "54723afabaadbfa1cea663aadbfa021938468445d20f2f90b18b594c96c4029a",
+    "sharedassets1.resource": "1f9cf853d00cba6cdbe9f8e6ebe118de6ad41042e53f3bd73c22b1e3cf62e6e7"
+  },
+  "built_binary_payloads": {
+    "Managed/mono/4.0/machine.config": "6919d5af506aae0d93e91bd83418a81895a5554b9f54cf94aad20d025a4db664",
+    "Il2CppData/Metadata/global-metadata.dat": "81547a66d4f3c470b5ab3c4393f799bc485915914618193753dbe04d48d96720",
+    "boot.config": "78cc47cbbed8923df2d9eb2da0c8fd7b3b400b3353544adb47c327802fc0ba56",
+    "resources.resource": "54723afabaadbfa1cea663aadbfa021938468445d20f2f90b18b594c96c4029a",
+    "sharedassets1.resource": "1f9cf853d00cba6cdbe9f8e6ebe118de6ad41042e53f3bd73c22b1e3cf62e6e7"
+  },
+  "binary_payload_differences": []
+}
