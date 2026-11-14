@@ -1,5 +1,5 @@
 """Export Zurich textures, then rebuild a playable copy from edited PNGs."""
-import sys, json, shutil, argparse
+import sys, json, shutil, argparse, gc
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / '.tools/python'))
@@ -46,8 +46,15 @@ def main():
     if args.action=='export': print('Exported',len(entries),'textures'); return
     out=ROOT/('game-demo' if args.action=='demo' else 'game-local'); out.mkdir(exist_ok=True)
     data=env.file.save()
+    object_count=len(list(env.objects))
+    # UnityPy retains cyclic references. Release the source object graph before
+    # loading the rebuilt package for verification (important on small servers).
+    obj=None
+    tex=None
+    env=None
+    gc.collect()
     check=UnityPy.load(data)
-    assert len(list(check.objects))==len(list(env.objects))
+    assert len(list(check.objects))==object_count
     for obj in check.objects:
         if obj.type.name=='Texture2D' and obj.peek_name() in changed:
             assert obj.read().image.convert('RGBA').tobytes()==expected[obj.peek_name()], 'Texture differs after repack (RGBA)'
