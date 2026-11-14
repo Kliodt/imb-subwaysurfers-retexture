@@ -7,7 +7,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 RUN pip install --no-cache-dir UnityPy==1.25.4
 
 COPY texture_tool.py launcher-template.html ./
-COPY subway-original/ ./subway-original/
+COPY build-inputs/ ./subway-original/
 COPY textures/ ./textures/
 
 # Applies every edited PNG and verifies the repacked textures against RGBA.
