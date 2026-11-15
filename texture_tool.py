@@ -117,6 +117,7 @@ def main():
         shutil.copy2(ROOT/'subway-original'/name,out/name)
     html=(ROOT/'launcher-template.html').read_text(encoding='utf-8')
     shutil.copy2(ROOT/'game-input.js',out/'game-input.js')
+    shutil.copy2(ROOT/'gamepad-input.js',out/'gamepad-input.js')
     (out/'index.html').write_text(html,encoding='utf-8')
     print('Built',out.name,'changed:',changed,'objects:',len(list(check.objects)))
     if patched_meshes: print('Coin face UV mapping updated:',patched_meshes)

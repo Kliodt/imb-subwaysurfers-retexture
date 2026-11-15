@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 RUN pip install --no-cache-dir UnityPy==1.25.4
 
-COPY texture_tool.py launcher-template.html game-input.js ./
+COPY texture_tool.py launcher-template.html game-input.js gamepad-input.js ./
 COPY build-inputs/ ./subway-original/
 COPY textures/ ./textures/
 

@@ -76,7 +76,7 @@
                     //         // we are on home screen
                     //     });
                     if (window.isGameRunning()) {
-                        setTimeout(() => window.gameInput.sendClick(100, 2), 0);
+                        setTimeout(() => window.gameInput.sendClick(200, 2), 0);
                         return;
                     } else {
                         digit5EscapeDown = true;
@@ -219,6 +219,14 @@
         if (type !== "keypress") remap(target, event.code || event.key, type === "keydown", event);
     }, true);
     window.gameInput = Object.freeze({
+        // Immediate press/release through the same keyPressed hook as keyboard.
+        sendKeyEvent(key, isDown) {
+            if (typeof isDown !== "boolean") throw new TypeError("isDown must be a boolean");
+            const info = keyInfo(key);
+            const target = canvas();
+            if (isDown) focus(target);
+            remap(target, info.code, isDown);
+        },
         sendKey(key, durationMs = 80) {
             const info = keyInfo(key), ms = duration(durationMs);
             return enqueue(async () => {
