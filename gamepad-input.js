@@ -38,7 +38,6 @@
                 for (const [button, key] of mapping) {
                     if (pad.buttons[button]?.pressed) next.add(key);
                 }
-                // Button 0 OR axis 1 holds Digit5; release only when BOTH are off.
                 if (pad.axes[1] >= 1) next.add("Digit5");
             }
             for (const key of pressed) {

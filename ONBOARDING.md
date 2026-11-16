@@ -8,9 +8,8 @@
 
 ## Устройство проекта
 
-**Браузерный коврик:** gamepad-input.js подключён после game-input.js и включён в texture_tool.py/Dockerfile. Первый ненулевой gamepad, опрос requestAnimationFrame, переходы DOWN/UP без повторов через новый gameInput.sendKeyEvent → keyPressed. Раскладка:6→Digit7,2→Digit8,7→Digit9,0 ИЛИ axes[1]>=1→Digit5,3→Digit6,5→Digit1,1→Digit2,4→Digit3. Num5 агрегирует два сигнала. При blur/hidden/disconnect/смене контроллера — отпускания. Проверки в output/test-gamepad-input.cjs прошли; локальная оболочка обновлена, живой коврик ещё не проверен. Полная таблица в README. Python больше не требуется для этого пути.
+**Браузерный коврик:** gamepad-input.js подключён после game-input.js и включён в texture_tool.py/Dockerfile. Первый ненулевой gamepad, опрос requestAnimationFrame, переходы DOWN/UP без повторов через новый gameInput.sendKeyEvent → keyPressed. Раскладка:6→Digit7,2→Digit8,7→Digit9,0→Digit4,axes[1]>=1→Digit5,3→Digit6,5→Digit1,1→Digit2,4→Digit3. При blur/hidden/disconnect/смене контроллера — отпускания. Проверки в output/test-gamepad-input.cjs прошли; локальная оболочка обновлена, пользователь подтвердил работу на коврике после исправления buttons[0]→Digit4. Полная таблица в README.
 
-**Танцевальный коврик:** корневой dance_pad.py читает Windows game controller через ctypes/winmm без зависимостей; есть --list/--device/--json, кнопки/POV/оси и DOWN/UP. Дополнительный --hid использует hidapi для прямого чтения отчётов и диагностики битов (раскладка коврика ещё не определена). Передача в браузер пока не реализована. Текущая среда не показала игровых устройств через winmm, живое нажатие панелей не проверено. Команды в README.
 
 **Исправление Digit5 → Escape:** раньше default keyPressed отправляла Escape keydown, но блокировала keyup. Теперь отпускание Digit5 отправляет Escape keyup, если именно это нажатие отправило Escape; изменение isGameRunning между событиями не влияет. Для ветки клика Escape не отправляется. Локальный JS обновлён; поведение реальной Unity ещё проверить.
 
